@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: #060239;
+    --white-color: white;
+    --red-color: #E7004C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(90deg, #050939 0%, #141A61 47.57%, #050939 93.19%);
+    color: var(--white-color);
+
+    font-family: 'Open Sans', 'Lato', sans-serif;
+    font-size: 1.25rem;
+}
+
+header {
+    height: 10vh;
+    padding-left: 30px;
+}
+
+header img {
+    height: 60px;
+}
+
+title {
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 50px;
+    height: 100vh;
+    width: 100%;
+}
+.left-section {
+    margin-top: 25px;
+    width: 50vw;
+}
+
+.title {
+    width: 70%;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.left-section img, p {
+    width: 70%;
+}
+
+.left-section div {
+    display: flex;
+    align-items: center;
+
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.button {
+    text-transform: uppercase;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    font-family: 'Open Sans', 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+
+    height: 3rem;
+    width: 28%;
+    padding: 10px;
+    margin-right: 30px;
+    border-color: #020a13;
+    /* border-style: none; */
+    border-radius: 6px;
+}
+
+.right-section {
+    width: 50vw;
+}
+
+.right-section img {
+    width: 90%;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-image: url(../assets/bg-blackfriday.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 15px; */
+    /* padding-left: 25px; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.second-container div {
+    padding: 35px 0;
+}
+
+.second-title {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.second-title + p {
+    width: 80%;
+}
+
+form {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 18vw;
+}
+
+form input {
+    font-size: 1rem;
+    height: 3rem;
+    border-radius: 6px;
+}
+
+#email {
+    background-color: #03152e;
+    border-color: #020a13;
+    color: var(--white-color);
+    padding-left: 20px;
+    width: 30%;
+}
+
+#email + input {
+    text-transform: uppercase;
+    background-color: var(--background-color);
+    border-color: var(--red-color);
+    color: var(--white-color);
+    font-weight: bold;
+
+    width: 15%;
+    margin-left: 15px;
+}
+
+footer p {
+    font-size: medium;
+    margin-bottom: 30px;
+    width: 100%;
+}
