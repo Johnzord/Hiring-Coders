@@ -8,5 +8,5 @@ Neste repositório constam os projetos desenvolvidos no programa Hiring Coders
 
 
 
-*Em construção* :happy::rainbow:
+*Em construção* :happy: :rainbow:
 
